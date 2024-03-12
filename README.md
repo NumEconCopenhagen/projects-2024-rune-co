@@ -1,7 +1,7 @@
 # \[Group name\]
 
 **Group members:**
-- A
+- Kasper
 - B
 - C
 
