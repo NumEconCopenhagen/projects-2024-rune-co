@@ -2,8 +2,8 @@
 
 **Group members:**
 - Kasper
-- B
-- C
+- Rune
+- Jakob
 
 This repository contains  
 1. Inaugural project. 
