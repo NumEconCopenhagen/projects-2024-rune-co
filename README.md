@@ -1,9 +1,9 @@
 # \[Group name\]
 
 **Group members:**
-- Kasper
-- Rune
-- Jakob
+- Kasper Paabøl Jensen
+- Rune Schmidt Qvist
+- Jakob Friis
 
 This repository contains  
 1. Inaugural project. 
