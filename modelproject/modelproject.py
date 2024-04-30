@@ -1,22 +1,11 @@
-from scipy import optimize
+# endowments
+e1 = 24
+e2 = 0
 
-def solve_ss(alpha, c):
-    """ Example function. Solve for steady state k. 
+# utility function
+def u(x1,x2,alpha=1/2):
+    return x1**alpha*x2**(1-alpha)
 
-    Args:
-        c (float): costs
-        alpha (float): parameter
-
-    Returns:
-        result (RootResults): the solution represented as a RootResults object.
-
-    """ 
-    
-    # a. Objective function, depends on k (endogenous) and c (exogenous).
-    f = lambda k: k**alpha - c
-    obj = lambda kss: kss - f(kss)
-
-    #. b. call root finder to find kss.
-    result = optimize.root_scalar(obj,bracket=[0.1,100],method='bisect')
-    
-    return result
+# production function
+def f(z,beta=1/2):
+    return z**beta
