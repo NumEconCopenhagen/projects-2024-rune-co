@@ -7,6 +7,8 @@
 
 This repository contains  
 1. Inaugural project. 
-2. Data project. We fetch data from **source x** on **y** and show that ...
 2. Data project. We use 'DataProject_raw.xlsx' and simulate the Premier League season 2022/2023 based on xG (Expected Goals) to find the 'fair' end-of-year table.
-3. Model project. We model 
+3. Model project. We solve a Robinson Crusuo model and extend with mutiple people and trade
+4. Exam project.
+
+Apart from a standard Anaconda Python 3 installation, the project requires no further packages. All imports and magics are included at the top of each file.
