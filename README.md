@@ -12,3 +12,5 @@ This repository contains
 4. Exam project.
 
 Apart from a standard Anaconda Python 3 installation, the project requires no further packages. All imports and magics are included at the top of each file.
+
+We have used AI tools for general help thorughout all projects.
